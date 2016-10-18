@@ -26,8 +26,14 @@ ol, ul, li, ol {
     margin-left: 1em;
 }
 code {
+    background-color: #ECECEC;
+    padding: 0.2em;
+    color: #7163B4;
+}
+pre code {
     display: inline-block;
-    margin-left: 2em;
+    margin-left: 1em;
+    padding: 1em;
 }
 
 blockquote, q { quotes: none; }
