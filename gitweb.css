@@ -18,7 +18,17 @@ caption, tbody, tfoot, thead, tr, th, td {
   background: transparent;
 }
 
-ol, ul { list-style: none; }
+p { padding: 0.5em 0; }
+ol, ul { margin: 0.5em; }
+
+ol, ul, li, ol {
+    list-style: disc;
+    margin-left: 1em;
+}
+code {
+    display: inline-block;
+    margin-left: 2em;
+}
 
 blockquote, q { quotes: none; }
 
