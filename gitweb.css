@@ -18,6 +18,7 @@ caption, tbody, tfoot, thead, tr, th, td {
   background: transparent;
 }
 
+p img {vertical-align:middle;}
 p { padding: 0.5em 0; }
 ol, ul { margin: 0.5em; }
 
@@ -439,6 +440,7 @@ th .header {
   border: 1px solid #bedce7;
   padding: 5px;
   margin: 0 auto 0 auto;
+  font-size:0.86em; 
 }
 
 .log_body {
